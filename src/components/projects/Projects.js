@@ -44,7 +44,7 @@ const Projects = () => {
           src={projectOne}
         />
         <ProjectsCard
-          title="company website"
+          title="bus reservation system"
           des=" it's serve as a crucial online presence, providing information about a business,
            its products or services, and establishing a digital hub for customer interaction."
           src={projectTwo}
