@@ -31,7 +31,7 @@ const Projects = () => {
           des=" Digital address is a unique identifier associated with a specific location or entity in the digital realm."
           src={projectThree}
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="promotion website"
           des=" Promoting a website involves various strategies aimed at increasing its visibility, attracting visitors, and
            achieving specific goals."
@@ -48,7 +48,7 @@ const Projects = () => {
           des=" it's serve as a crucial online presence, providing information about a business,
            its products or services, and establishing a digital hub for customer interaction."
           src={projectTwo}
-        />
+        /> */}
       </div>
     </section>
   );
