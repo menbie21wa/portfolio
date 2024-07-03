@@ -1,6 +1,11 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  busSystemImg,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -31,7 +36,7 @@ const Projects = () => {
           des=" Digital address is a unique identifier associated with a specific location or entity in the digital realm."
           src={projectThree}
         />
-        {/* <ProjectsCard
+        <ProjectsCard
           title="promotion website"
           des=" Promoting a website involves various strategies aimed at increasing its visibility, attracting visitors, and
            achieving specific goals."
@@ -47,8 +52,8 @@ const Projects = () => {
           title="bus reservation system"
           des=" it's serve as a crucial online presence, providing information about a business,
            its products or services, and establishing a digital hub for customer interaction."
-          src={projectTwo}
-        /> */}
+          src={busSystemImg}
+        />
       </div>
     </section>
   );
