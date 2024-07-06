@@ -9,6 +9,11 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import busSystemImg from "./images/projects/busSystemImg.JPG";
+import companywebImg from "./images/projects/company-website2.png";
+import ecommerceImg from "./images/projects/ecommerce2.jpg";
+import ecommerceApp from "./images/projects/ecommerceApp1.png";
+import testimonialSni from "./images/testmonial/sni.jpg";
+import tesimonialBini from "./images/testmonial/biniyam.jpg";
 
 export {
   menbielogo,
@@ -22,4 +27,9 @@ export {
   quote,
   contactImg,
   busSystemImg,
+  companywebImg,
+  ecommerceImg,
+  ecommerceApp,
+  testimonialSni,
+  tesimonialBini,
 };

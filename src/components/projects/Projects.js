@@ -5,6 +5,9 @@ import {
   projectTwo,
   projectThree,
   busSystemImg,
+  companywebImg,
+  ecommerceImg,
+  ecommerceApp,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -24,7 +27,7 @@ const Projects = () => {
         <ProjectsCard
           title="E-commerce Website"
           des=" I had the pleasure of working with E+up software company as our e-commerce website developer."
-          src={projectOne}
+          src={ecommerceImg}
         />
         <ProjectsCard
           title="stock Website"
@@ -37,16 +40,16 @@ const Projects = () => {
           src={projectThree}
         />
         <ProjectsCard
-          title="promotion website"
-          des=" Promoting a website involves various strategies aimed at increasing its visibility, attracting visitors, and
-           achieving specific goals."
-          src={projectThree}
+          title="company website"
+          des=" Companys website involves various strategies aimed at increasing its visibility, attracting visitors, and
+           achieving specific goals. I made 6 company website."
+          src={companywebImg}
         />
         <ProjectsCard
           title="E-commerce App"
           des=" 
           Developing an e-commerce app using React Native allows you to create a cross-platform application with a single codebase that runs on both iOS and Android platforms."
-          src={projectOne}
+          src={ecommerceApp}
         />
         <ProjectsCard
           title="bus reservation system"

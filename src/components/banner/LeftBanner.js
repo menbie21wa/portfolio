@@ -1,6 +1,12 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTelegram,
+  FaTwitter,
+  FaLinkedinIn,
+  FaReact,
+} from "react-icons/fa";
 import {
   SiTailwindcss,
   SiFigma,
@@ -52,15 +58,18 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
+            <a href="https://t.me/Menbie21wa" className="bannerIcon">
+              <FaTelegram />
+            </a>
             <span className="bannerIcon">
               <FaTwitter />
             </span>
-            <span className="bannerIcon">
+            <a
+              href="https://www.linkedin.com/in/walelgn27wa/"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
